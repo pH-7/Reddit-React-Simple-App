@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Comment as RedditSpinner } from "react-loader-spinner";
+import RedditPosts from "./RedditPosts";
 
 const Reddit = () => {
   const REDDIT_THREAD_URL = "https://www.reddit.com/r/reactjs.json";
@@ -38,13 +39,7 @@ const Reddit = () => {
       {isLoading ? (
         <RedditSpinner height="80" width="80" ariaLabel="comment-loading" />
       ) : (
-        <ul>
-          {posts.map((post) => (
-            <li key={post.id}>
-              <a href={post.url}>{post.title}</a> from <i>{post.author}</i>
-            </li>
-          ))}
-        </ul>
+        <RedditPosts posts={posts} />
       )}
     </>
   );

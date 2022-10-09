@@ -41,7 +41,7 @@ const Reddit = () => {
       ) : (
         <ListGroup>
           {posts.map((post) => (
-            <RedditPosts post={post} />
+            <RedditPosts key={post.id} post={post} />
           ))}
         </ListGroup>
       )}

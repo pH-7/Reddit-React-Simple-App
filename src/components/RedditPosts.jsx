@@ -4,7 +4,7 @@ import { ListGroup } from "react-bootstrap";
 const RedditPosts = ({ post }) => {
   return (
     <>
-      <ListGroup.Item key={post.id}>
+      <ListGroup.Item>
         <a href={post.url}>{post.title}</a> from <i>{post.author}</i>
       </ListGroup.Item>
     </>

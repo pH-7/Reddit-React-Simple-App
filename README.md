@@ -1,6 +1,6 @@
 # Reddit Posts
 
-This is the source code of my online ReactJS courses, available on [YouTube](https://www.youtube.com/channel/UCGqLuT0upPiocwYSnnmqt2g) 😺
+This is the source code of my online ReactJS courses, available on my 👉 [YouTube channel](https://www.youtube.com/channel/UCGqLuT0upPiocwYSnnmqt2g) 😺
 
 **This Reddit React app uses:**
 * [Axios](https://github.com/axios/axios)
@@ -35,4 +35,3 @@ I'm also the founder of [pH7's Social Dating Builder 🚀](https://github.com/pH
 ## ⚖️ License
 
 Distributed under [MIT](https://opensource.org/licenses/MIT) license 🎉
-

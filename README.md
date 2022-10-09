@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# Reddit Posts
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the source code of my online ReactJS courses, available on [YouTube](https://www.youtube.com/channel/UCGqLuT0upPiocwYSnnmqt2g) 😺
 
-## Available Scripts
+**This Reddit React app uses:**
+* [Axios](https://github.com/axios/axios)
+* [React Bootstrap](https://github.com/react-bootstrap/react-bootstrap)
+* [React Loader Spinner](https://github.com/mhnpd/react-loader-spinner)
 
-In the project directory, you can run:
+## 🖼 Screenshot
 
-### `npm start`
+![Reddit Posts retriever - Homepage example](reddit-posts-retriever.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ⚙️ Setting Up
 
-### `npm test`
+1. Make sure you have npm v6 or newer installed (by installing [NodeJS](https://nodejs.org/en/download)).
+2. Run `npm ci` to install all dependencies.
+3. `npm start` to start your React client application.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## 🧑‍🎨 Author
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+I'm [Pierre-Henry Soria](https://ph7.me), a SUPER passionate software engineer 🤖
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+I love reading information books and learning new things daily! 😊
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+I'm also the founder of [pH7's Social Dating Builder 🚀](https://github.com/pH7Software/pH7-Social-Dating-CMS) and hundreds of other open source projects such as [Lifyzer, Healthy Food 🍍](https://github.com/Lifyzer) and [others](https://github.com/pH-7?tab=repositories).
 
-### `npm run eject`
+[![@phenrysay](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/phenrysay "Follow Me on Twitter") [![pH-7](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pH-7 "Follow Me on GitHub")
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+[![Pierre-Henry Soria](https://s.gravatar.com/avatar/a210fe61253c43c869d71eaed0e90149?s=200)](https://ph7.me "Pierre-Henry Soria - Software Engineer")
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## ⚖️ License
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Distributed under [MIT](https://opensource.org/licenses/MIT) license 🎉
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Container, ListGroup } from "react-bootstrap";
 import { Comment as RedditSpinner } from "react-loader-spinner";
 import RedditPosts from "./RedditPosts";
 
@@ -12,17 +13,14 @@ const Reddit = () => {
     try {
       setIsLoading(true);
 
-      const rawResults = await fetch(REDDIT_THREAD_URL);
+      const rawResult = await fetch(REDDIT_THREAD_URL);
       const {
-        data: { children: jsonResults },
-      } = await rawResults.json();
+        data: { children: jsonResult },
+      } = await rawResult.json();
 
-      {
-        /* Since we only have one argument here, we can omit parentheses */
-      }
-      setPosts(jsonResults.map((obj) => obj.data));
-    } catch (err) {
-      console.error(err.message);
+      setPosts(jsonResult.map((obj) => obj.data));
+    } catch (error) {
+      console.error(error.message);
     } finally {
       setIsLoading(false);
     }
@@ -33,15 +31,19 @@ const Reddit = () => {
   }, []);
 
   return (
-    <>
-      <h1>Reddit /r/reactjs</h1>
-
+    <Container className="text-center">
+      <h1 className="mt-3 mb-5">Reddit /r/reactjs</h1>
       {isLoading ? (
         <RedditSpinner height="80" width="80" ariaLabel="comment-loading" />
       ) : (
-        <RedditPosts posts={posts} />
+        <ListGroup>
+          {/* Since we have only one argument here, we can omit the parentheses */}
+          {posts.map((post) => (
+            <RedditPosts post={post} />
+          ))}
+        </ListGroup>
       )}
-    </>
+    </Container>
   );
 };
 

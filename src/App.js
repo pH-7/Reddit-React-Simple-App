@@ -1,4 +1,3 @@
-import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Footer from "./components/Footer";
 import Reddit from "./components/Reddit";

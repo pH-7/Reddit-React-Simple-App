@@ -18,6 +18,9 @@ const Reddit = () => {
         data: { children: jsonResult },
       } = await rawResult.json();
 
+      {
+        /* /* Since we only have one argument here, we can omit parentheses */
+      }
       setPosts(jsonResult.map((obj) => obj.data));
     } catch (error) {
       console.error(error.message);
@@ -37,7 +40,6 @@ const Reddit = () => {
         <RedditSpinner height="80" width="80" ariaLabel="comment-loading" />
       ) : (
         <ListGroup>
-          {/* Since we have only one argument here, we can omit the parentheses */}
           {posts.map((post) => (
             <RedditPosts post={post} />
           ))}

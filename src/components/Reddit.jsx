@@ -20,6 +20,7 @@ const Reddit = () => {
     <>
       <h1>Reddit /r/reactjs</h1>
       <ul>
+        {/* Since we have only one argument here, we can omit the parentheses */}
         {posts.map((post) => (
           <li key={post.id}>
             <a href={post.url}>{post.title}</a> from <i>{post.author}</i>

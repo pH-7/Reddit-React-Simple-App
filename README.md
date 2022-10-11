@@ -13,9 +13,15 @@ This is the source code of my online ReactJS courses, available on my 👉 [YouT
 
 ### Videos
 
-[![Watch the video][https://i1.ytimg.com/vi/kUR3XAFR3K0/maxresdefault.jpg]](https://www.youtube.com/watch?v=kUR3XAFR3K0)
+[![Watch the video](https://i1.ytimg.com/vi/ckT1YGDo9Vo/maxresdefault.jpg)](https://www.youtube.com/watch?v=ckT1YGDo9Vo)
 
 👉 **[Click here to watch Part-1 on YouTube](https://youtu.be/ckT1YGDo9Vo)**
+
+---
+
+[![Watch the video](https://i1.ytimg.com/vi/m3j7JUQES70/maxresdefault.jpg)](https://www.youtube.com/watch?v=m3j7JUQES70)
+
+👉 **[Click here to watch Part-1 on YouTube](https://youtu.be/m3j7JUQES70)**
 
 ## ⚙️ Setting Up
 

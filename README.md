@@ -11,6 +11,11 @@ This is the source code of my online ReactJS courses, available on my 👉 [YouT
 
 ![Reddit Posts retriever - Homepage example](reddit-posts-retriever.png)
 
+### Videos
+
+[![Watch the video][https://i1.ytimg.com/vi/kUR3XAFR3K0/maxresdefault.jpg]](https://www.youtube.com/watch?v=kUR3XAFR3K0)
+
+👉 **[Click here to watch Part-1 on YouTube](https://youtu.be/ckT1YGDo9Vo)**
 
 ## ⚙️ Setting Up
 

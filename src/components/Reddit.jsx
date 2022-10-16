@@ -39,9 +39,9 @@ const Reddit = ({ subreddit }) => {
       {isLoading ? (
         <RedditSpinner height="80" width="80" ariaLabel="comment-loading" />
       ) : (
-        <ListGroup variant="flush">
-          {posts.map((post) => (
-            <RedditPosts key={post.id} post={post} />
+        <ListGroup>
+          {posts.map((post, index) => (
+            <RedditPosts key={post.id} post={post} oddRow={index % 2} />
           ))}
         </ListGroup>
       )}

@@ -3,8 +3,8 @@ import { Container, ListGroup } from "react-bootstrap";
 import { Comment as RedditSpinner } from "react-loader-spinner";
 import RedditPosts from "./RedditPosts";
 
-const Reddit = () => {
-  const REDDIT_THREAD_URL = "https://www.reddit.com/r/reactjs.json";
+const Reddit = ({ subreddit }) => {
+  const REDDIT_THREAD_URL = `https://www.reddit.com/r/${subreddit}.json`;
 
   const [posts, setPosts] = useState([]);
   const [isLoading, setIsLoading] = useState(false);

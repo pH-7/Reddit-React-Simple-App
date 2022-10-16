@@ -6,7 +6,7 @@ import Layout from "./components/Layout";
 function App() {
   return (
     <Layout>
-      <Reddit />
+      <Reddit subreddit="reactjs" />
       <Footer />
     </Layout>
   );

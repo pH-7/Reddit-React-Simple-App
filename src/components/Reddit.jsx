@@ -35,7 +35,7 @@ const Reddit = ({ subreddit }) => {
 
   return (
     <Container className="text-center">
-      <h1 className="mt-3 mb-5">Reddit /r/reactjs</h1>
+      <h1 className="mt-3 mb-5">Reddit /r/{subreddit}</h1>
       {isLoading ? (
         <RedditSpinner height="80" width="80" ariaLabel="comment-loading" />
       ) : (

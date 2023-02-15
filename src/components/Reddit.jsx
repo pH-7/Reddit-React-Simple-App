@@ -19,7 +19,8 @@ const Reddit = ({ subreddit }) => {
       } = await rawResult.json();
 
       {/* Retrieve only the `data` prop from `obj` of `jsonResult` array */}
-      setPosts(jsonResult.map((obj) => obj.data));
+      {/* Since we only have one argument here, we can omit parentheses like "obj => obj.data"  */}
+      setPosts(jsonResult.map(obj => obj.data));
     } catch (error) {
       console.error(error.message);
     } finally {
@@ -38,7 +39,6 @@ const Reddit = ({ subreddit }) => {
         <RedditSpinner height="80" width="80" ariaLabel="comment-loading" />
       ) : (
         <ListGroup>
-          {/* Since we only have one argument here, we can omit parentheses */}
           {posts.map((post, index) => (
             <RedditPosts key={post.id} post={post} oddRow={index % 2} />
           ))}

@@ -18,7 +18,7 @@ const Reddit = ({ subreddit }) => {
         data: { children: jsonResult },
       } = await rawResult.json();
 
-      {/* Retrieve only the `data` prop from `obj` of `jsonResult` array */}
+      {/* Retrieve only `data` prop from `obj` of `jsonResult` array */}
       {/* Since we only have one argument here, we can omit parentheses like "obj => obj.data"  */}
       setPosts(jsonResult.map(obj => obj.data));
     } catch (error) {
